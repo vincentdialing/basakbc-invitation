@@ -1,73 +1,61 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-label="Basak Baptist Church anniversary preview image">
   <defs>
     <linearGradient id="silk" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#fffdfb" />
-      <stop offset="50%" stop-color="#f7f2ed" />
-      <stop offset="100%" stop-color="#fffefd" />
+      <stop offset="0%" stop-color="#fffefd" />
+      <stop offset="48%" stop-color="#f8f2ee" />
+      <stop offset="100%" stop-color="#fffdfb" />
     </linearGradient>
-    <linearGradient id="wine" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#bc1830" />
-      <stop offset="100%" stop-color="#6e0915" />
-    </linearGradient>
-    <radialGradient id="petal" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" stop-color="#e43852" />
-      <stop offset="100%" stop-color="#7a0b19" />
-    </radialGradient>
-    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
-      <feDropShadow dx="0" dy="16" stdDeviation="18" flood-color="#5e0812" flood-opacity="0.18" />
+    <filter id="card-shadow" x="-20%" y="-20%" width="140%" height="160%">
+      <feDropShadow dx="0" dy="22" stdDeviation="28" flood-color="#7b121f" flood-opacity="0.10" />
     </filter>
+    <filter id="soft-glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="8" stdDeviation="20" flood-color="#b21f31" flood-opacity="0.10" />
+    </filter>
+    <linearGradient id="button-red" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#c81d2f" />
+      <stop offset="100%" stop-color="#a30f20" />
+    </linearGradient>
   </defs>
 
   <rect width="1200" height="630" fill="url(#silk)" />
-  <path d="M-40 120c180 30 330 10 480-20s330-48 520 6 280 58 300 44V36H-40z" fill="#ffffff" opacity="0.78" />
-  <path d="M-20 444c152-32 312-18 474 26s324 58 500 12 220-52 266-34v182H-20z" fill="#f8f1ec" opacity="0.86" />
-  <path d="M-50 280c204 42 330 40 530 2s402-64 760 0" fill="none" stroke="#f2e8e2" stroke-width="36" opacity="0.72" />
-  <path d="M-10 120c144 30 292 44 442 22s314-62 542-28 200 44 256 34" fill="none" stroke="#efe5df" stroke-width="18" opacity="0.58" />
-  <path d="M-10 514c176-36 344-40 502 4s366 74 718 8" fill="none" stroke="#eee3dd" stroke-width="24" opacity="0.62" />
+  <path d="M0 62c124 34 246 32 370 18s242-28 370-22 286 30 460-4v576H0z" fill="#fffdfb" opacity="0.72" />
+  <path d="M0 188c188-18 316-36 480-8s294 60 466 38 182-26 254-10" fill="none" stroke="#f0e7e1" stroke-width="22" opacity="0.65" />
+  <path d="M0 362c208 28 364 34 560 4s366-42 640 18" fill="none" stroke="#efe4dd" stroke-width="26" opacity="0.55" />
+  <path d="M0 520c170-22 318-10 502 24s396 42 698-2" fill="none" stroke="#f3ebe5" stroke-width="18" opacity="0.60" />
 
-  <g opacity="0.8" stroke="#23191b" stroke-width="2.2" fill="none">
-    <path d="M944 100c64 24 96 66 118 132" />
-    <path d="M994 80c-12 36-6 84 24 126" />
-    <path d="M1024 138c34-16 86-16 128 10" />
-    <path d="M942 162c44 8 82 38 108 82" />
-    <path d="M1002 210c44 2 80 22 110 58" />
-    <path d="M110 490c26 24 38 58 36 98" />
-    <path d="M90 548c38-8 74 4 100 28" />
-    <path d="M102 580c30 4 52 22 62 48" />
+  <ellipse cx="76" cy="86" rx="84" ry="118" fill="#cf3245" opacity="0.10" />
+  <ellipse cx="1120" cy="520" rx="96" ry="132" fill="#cf3245" opacity="0.10" />
+  <ellipse cx="914" cy="540" rx="120" ry="88" fill="#e8dbd3" opacity="0.28" />
+
+  <g filter="url(#card-shadow)">
+    <rect x="92" y="42" width="1016" height="546" rx="38" fill="#fffefe" fill-opacity="0.82" stroke="#fffdfc" stroke-opacity="0.95" />
   </g>
 
-  <g filter="url(#shadow)">
-    <g transform="translate(114 88)">
-      <circle cx="0" cy="0" r="86" fill="url(#petal)" />
-      <circle cx="54" cy="26" r="62" fill="url(#petal)" />
-      <circle cx="-54" cy="40" r="58" fill="url(#petal)" />
-      <circle cx="12" cy="72" r="70" fill="url(#petal)" />
-      <circle cx="-20" cy="-58" r="52" fill="url(#petal)" />
-      <circle cx="42" cy="-44" r="46" fill="url(#petal)" />
-      <circle cx="-62" cy="-16" r="44" fill="url(#petal)" />
-    </g>
-    <g transform="translate(1034 520)">
-      <circle cx="0" cy="0" r="82" fill="url(#petal)" />
-      <circle cx="50" cy="24" r="58" fill="url(#petal)" />
-      <circle cx="-56" cy="28" r="54" fill="url(#petal)" />
-      <circle cx="14" cy="66" r="66" fill="url(#petal)" />
-      <circle cx="-8" cy="-54" r="50" fill="url(#petal)" />
-      <circle cx="38" cy="-34" r="44" fill="url(#petal)" />
-      <circle cx="-58" cy="-10" r="40" fill="url(#petal)" />
-    </g>
-    <g fill="#31412a" opacity="0.88">
-      <ellipse cx="238" cy="172" rx="26" ry="62" transform="rotate(-28 238 172)" />
-      <ellipse cx="166" cy="228" rx="22" ry="54" transform="rotate(18 166 228)" />
-      <ellipse cx="966" cy="444" rx="22" ry="60" transform="rotate(-24 966 444)" />
-      <ellipse cx="1070" cy="420" rx="24" ry="56" transform="rotate(28 1070 420)" />
-    </g>
+  <image href="./logo-red-isolated.png" x="506" y="58" width="188" height="188" preserveAspectRatio="xMidYMid meet" filter="url(#soft-glow)" />
+
+  <text x="600" y="262" text-anchor="middle" font-size="20" letter-spacing="5" fill="#9d1624" font-family="Georgia, serif">
+    YOU ARE INVITED TO CELEBRATE WITH US
+  </text>
+
+  <text x="600" y="360" text-anchor="middle" font-size="84" fill="#6f0d18" font-family="'Snell Roundhand', 'Brush Script MT', cursive">
+    Basak Baptist
+  </text>
+  <text x="600" y="438" text-anchor="middle" font-size="84" fill="#6f0d18" font-family="'Snell Roundhand', 'Brush Script MT', cursive">
+    Church
+  </text>
+
+  <text x="600" y="500" text-anchor="middle" font-size="34" fill="#2b2022" font-family="Georgia, serif" font-weight="600">
+    Church Anniversary
+  </text>
+
+  <g font-family="Georgia, serif" font-size="20" fill="#6f6164">
+    <rect x="329" y="525" width="150" height="44" rx="22" fill="#fffdfc" stroke="#ead7d5" stroke-width="1.5" />
+    <text x="404" y="553" text-anchor="middle">May 4, 2026</text>
+
+    <rect x="493" y="525" width="98" height="44" rx="22" fill="#fffdfc" stroke="#ead7d5" stroke-width="1.5" />
+    <text x="542" y="553" text-anchor="middle">Monday</text>
+
+    <rect x="605" y="525" width="116" height="44" rx="22" fill="#fffdfc" stroke="#ead7d5" stroke-width="1.5" />
+    <text x="663" y="553" text-anchor="middle">8:00 AM</text>
   </g>
-
-  <rect x="246" y="146" width="708" height="340" rx="36" fill="#ffffff" fill-opacity="0.58" stroke="#ffffff" stroke-opacity="0.72" />
-
-  <text x="600" y="220" text-anchor="middle" font-size="22" letter-spacing="6" fill="#8b0e1a" font-family="Georgia, serif">YOU ARE INVITED TO CELEBRATE WITH US</text>
-  <text x="600" y="302" text-anchor="middle" font-size="66" fill="#6e0915" font-family="'Brush Script MT', 'Snell Roundhand', cursive">Basak Baptist Church</text>
-  <text x="600" y="354" text-anchor="middle" font-size="34" fill="#23191b" font-family="Georgia, serif">Church Anniversary</text>
-  <text x="600" y="404" text-anchor="middle" font-size="30" fill="#8b0e1a" font-family="Georgia, serif">Mind of Christ Be Committed</text>
-  <text x="600" y="450" text-anchor="middle" font-size="24" fill="#55484b" font-family="Georgia, serif">May 4, 2026 • 8:00 AM • Nabunturan, Davao de Oro</text>
 </svg>

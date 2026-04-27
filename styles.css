@@ -601,7 +601,7 @@ main::before {
 
   .section--location .container,
   .footer .container {
-    max-width: 780px;
+    max-width: 720px;
   }
 
   .section--location .section-kicker {
@@ -614,7 +614,7 @@ main::before {
   }
 
   .section--location .section-heading h2 {
-    font-size: clamp(1.55rem, 2.6vw, 2.15rem);
+    font-size: clamp(1.4rem, 2.35vw, 1.95rem);
   }
 
   .detail-card {
@@ -667,29 +667,29 @@ main::before {
   }
 
   .location-card iframe {
-    min-height: 208px;
+    min-height: 188px;
   }
 
   .location-card__content {
-    gap: 12px;
-    padding: 12px 14px;
+    gap: 10px;
+    padding: 10px 12px;
   }
 
   .location-card__content p {
-    font-size: 0.74rem;
+    font-size: 0.7rem;
   }
 
   .footer {
-    padding: 0 0 46px;
+    padding: 0 0 40px;
   }
 
   .footer p {
-    font-size: 0.76rem;
+    font-size: 0.72rem;
   }
 
   .footer-actions {
-    gap: 7px;
-    margin-top: 10px;
+    gap: 6px;
+    margin-top: 8px;
   }
 }
 
