@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://bbc-anniv.vercel.app/sitemap.xml
+Sitemap: https://basakbaptistchurch-anniv.vercel.app/sitemap.xml
