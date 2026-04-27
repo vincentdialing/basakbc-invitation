@@ -362,6 +362,10 @@ main::before {
   padding-top: 24px;
 }
 
+.section--theme .container {
+  text-align: center;
+}
+
 .section--details {
   padding-top: 118px;
 }
